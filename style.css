@@ -1,0 +1,68 @@
+/** global element styling **/
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** Body elements **/
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.menu {
+  color: #6070ff;
+  font-size: 1.3rem;
+}
+
+#navbar-icone {
+  color: #6070ff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.icon-group {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0%;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("./assits/header-shapes mobile.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.welcome {
+  text-decoration: solid;
+  color: #172b4d;
+  font-size: 60px;
+}
