@@ -3,7 +3,7 @@
 
 <div align="center">
  
-  < <img src="assits / micro_logo.png" alt="logo" width="140"  height="auto" /> >
+  < <img src="assits/micro_logo.png" alt="logo" width="140"  height="auto" /> >
   <br/>
 
 </div>
