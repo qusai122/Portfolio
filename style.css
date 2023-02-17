@@ -48,12 +48,17 @@ body {
   list-style-type: none;
   padding: 0%;
   margin-left: 24px;
+  color: #505f79;
 }
 
 .icon {
   padding: 10px;
   color: #505f79;
   font-size: large;
+}
+
+.fa-brands {
+  color: #505f79;
 }
 
 .section2 {
