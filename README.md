@@ -33,12 +33,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 💼 Portfolio <a name="about-project"></a>
 
 > 
-**Hello Microverse** is my first project with GitHub It doesn't have that much contact,
-but it is the first step for me to be a full stack developer.
-basically, It's my hello world page.
+**Portfolio**
+Hello it's me Qusai Issa from Palestine<br/>
+and this is my Portfolio.
 
 
 ## 🛠 Built With <a name="built-with"></a>
