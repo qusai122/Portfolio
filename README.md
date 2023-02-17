@@ -17,6 +17,13 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+ - [💻 Getting Started](#getting-started)
+   - [Setup](#setup)
+   - [Prerequisites](#prerequisites)
+   - [Install](#install)
+   - [Usage](#usage)
+   - [Run tests](#run-tests)
+   - [Deployment](#Deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -67,7 +74,61 @@ basically, It's my hello world page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+- Visual Studio Code.
+- Node JS.
+- Git bash.
+- GitHub Account.
+
+
+### Setup
+
+Clone this repository to your desired folder:
+Use git clone command or download ZIP folder
+
+<!--
+Example commands:
+```sh
+  cd my-folder
+  git clone git@github.com:KUBAHO3/Hello-Microverse.git
+```
+--->
+### Install
+Install this project with:
+npm
+Example command:
+```sh
+  cd my-project
+  npm init -y
+```
+### Usage
+To run the project, execute the following command:
+npm start or live server
+Example command:
+```sh
+  GitHub Pages Server
+```
+### Run tests
+To run tests, run the following command:
+npm test
+Example command:
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+### Deployment
+You can deploy this project using:
+GitHub Pages
+but it's not done yet
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
