@@ -10,7 +10,7 @@
 
 /** Body elements **/
 body {
-  background-color: #eee;
+  background-color: #E5E5E5;
 }
 
 .navbar {
@@ -100,4 +100,136 @@ body {
   font-weight: 500;
   line-height: 24px;
   margin-left: 24px;
+}
+
+.card {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+  background-color: #fff;
+  margin: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;  
+}
+
+.card-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+.card-description{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+
+
+
+.client-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.role-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+}
+
+.year-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.card-desc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+
+.main-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+}
+
+.card-info {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tags{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.tag-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #EBEBFF;
+  border-radius: 8px;
+}
+
+.action-button {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+}
+
+.button-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396DF2;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 16px 16px 16px 16px;
 }
