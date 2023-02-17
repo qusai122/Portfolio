@@ -53,19 +53,6 @@ basically, It's my hello world page.
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -107,7 +94,7 @@ basically, It's my hello world page.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **making it responsive**
-- [ ] **Adding Animation**
+- [ ] **Design for mobile First**
 - [ ] **Making it dynamic**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

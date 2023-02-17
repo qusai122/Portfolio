@@ -11,7 +11,6 @@
 /** Body elements **/
 body {
   background-color: #eee;
-  
 }
 
 .navbar {
@@ -25,18 +24,9 @@ body {
 #logo {
   color: #6070ff;
   text-decoration: none;
-
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
-}
-
-.fa-solid fa-bars {
-  position: absolute;
-  left: 16.67%;
-  right: 16.67%;
-  top: 70.83%;
-  bottom: 29.17%;  
 }
 
 .menu {
@@ -60,7 +50,8 @@ body {
 
 .icon {
   padding: 10px;
-  color: #505F79;
+  color: #505f79;
+  font-size: large;
 }
 
 .section2 {
@@ -81,7 +72,7 @@ body {
   font-weight: 700;
   line-height: 52px;
   text-align: left;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .about_me {
@@ -89,13 +80,12 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #344563;
 }
 
 .connect_me a {
-  color: #7F8CFF;
+  color: #7f8cff;
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
