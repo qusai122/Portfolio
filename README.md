@@ -125,9 +125,8 @@ Example command:
   npx stylelint "**/*.{css,scss}"
 ```
 ### Deployment
-You can deploy this project using:
-GitHub Pages
-but it's not done yet
+It will be deployed after merge
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
