@@ -112,8 +112,10 @@ body {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   gap: 12px;  
+  padding: 24px;
+  width: fit-content;
 }
 
 .card-title {
@@ -206,6 +208,7 @@ ul {
   padding: 4px 12px;
   background: #EBEBFF;
   border-radius: 8px;
+  color: #6070FF;
 }
 
 .action-button {
@@ -215,6 +218,7 @@ ul {
   align-items: center;
   padding: 12px;
   gap: 10px;
+  background-color: #FFFFFF;
   border: 1px solid #6070FF;
   border-radius: 8px;
 }
@@ -226,10 +230,4 @@ ul {
   font-size: 17px;
   line-height: 24px;
   color: #396DF2;
-}
-
-.card-img {
-  width: 100%;
-  border-radius: 8px;
-  margin: 16px 16px 16px 16px;
 }
