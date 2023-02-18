@@ -42,6 +42,18 @@ body {
   font-weight: 700;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-image: url("./assits/header-shapes mobile.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .icon-group {
   display: flex;
   flex-direction: row;
@@ -59,18 +71,6 @@ body {
 
 .fa-brands {
   color: #505f79;
-}
-
-.section2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-image: url("./assits/header-shapes mobile.png");
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .welcome {
@@ -91,41 +91,66 @@ body {
   text-align: left;
   color: #344563;
   margin-left: 24px;
+  width: 70%;
 }
 
 .connect_me a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
   color: #7f8cff;
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
   line-height: 24px;
   margin-left: 24px;
+  
 }
 
 .cards {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
   min-width: fit-content;
 }
 
 .card {
   box-sizing: border-box;
   background: #fff;
-  justify-self: center;
+  justify-self:stretch;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
-  margin: 40px;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 12px;
   padding: 24px;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width : 4000px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.container1 {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width : 4000px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .card-title {
+  flex-direction: column;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
