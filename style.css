@@ -129,18 +129,22 @@ body {
 }
 
 .cards {
-  flex-direction: column;
-  align-items: center;
+  display: grid;
   justify-content: center;
   width: 100%;
-  min-width: 375px;
+
+  /* min-width: 375px; */
   background-color: #f7f7f9;
+  overflow: hidden;
 }
 
 .card {
   padding: 10px 10px 30px 10px;
+  border-collapse: separate;
+  perspective: 1px;
   border-radius: 16px;
   background-color: #fff;
+  margin: 16px;
   margin-top: 40px;
 }
 
@@ -174,6 +178,7 @@ body {
   font-size: 36px;
   line-height: 44px;
   color: #172b4d;
+  margin-top: 12px;
 }
 
 .card-description {
@@ -183,7 +188,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12px;
 }
 
 .client-text {
@@ -223,7 +227,6 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 22px;
 }
 
 .main-card-text {
@@ -244,6 +247,7 @@ ul {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
+  padding-left: 0.1px;
 }
 
 .tag-item {
@@ -266,8 +270,8 @@ ul {
   font-size: 17px;
   background-color: #fff;
   border-radius: 8px;
-  padding: 14px 10px;
-  border: 2px solid #396df2;
+  padding: 10px 14px;
+  border: 1.5px solid #396df2;
 }
 
 .view-more:hover {
@@ -301,6 +305,7 @@ ul {
   font-weight: 600;
   font-size: 20px;
   color: #000;
+  padding: 8px;
 }
 
 .about-me {
@@ -340,18 +345,20 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .skill-name {
-  font-weight: 600;
+  font-weight: 500;
+  font-style: normal;
   font-size: 20px;
-  padding-left: 20px;
   color: #000;
 }
 
 .skill-name.fas {
-  font-weight: 600;
+  font-weight: 500;
+  font-style: normal;
   font-size: 20px;
   color: #acb7c3;
 }
@@ -359,6 +366,7 @@ ul {
 .sub-skills {
   display: flex;
   flex-direction: column;
+  padding: 0.1px;
 }
 
 .sub-skill {
@@ -366,10 +374,8 @@ ul {
   flex-direction: row;
   background-color: #f7f7f9;
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 4px 10px;
   margin-bottom: 20px;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 
 .sub-skill-img {
@@ -380,10 +386,14 @@ ul {
 }
 
 .sub-skill-name {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
   color: #253858;
   padding-top: 15px;
+}
+
+.main-skills {
+  padding: 0;
 }
 
 .see-project {
