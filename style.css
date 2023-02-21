@@ -309,7 +309,6 @@ ul {
 
 .about-me {
   background-color: #f7f7f9;
-  
 }
 
 .about-myself-tittle {
@@ -322,8 +321,7 @@ ul {
   padding-top: 60px;
   padding-bottom: 30px;
   background-color: #fff;
-  border-top-right-radius: 50px  ;
-
+  border-top-right-radius: 50px;
 }
 
 .about-myself {
