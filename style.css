@@ -71,6 +71,7 @@ body {
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
+  margin-top: auto;
 }
 
 .hero-about_me {
@@ -132,8 +133,6 @@ body {
   display: grid;
   justify-content: center;
   width: 100%;
-
-  /* min-width: 375px; */
   background-color: #f7f7f9;
   overflow: hidden;
 }
@@ -309,7 +308,8 @@ ul {
 }
 
 .about-me {
-  background-color: #fff;
+  background-color: #f7f7f9;
+  
 }
 
 .about-myself-tittle {
@@ -322,7 +322,8 @@ ul {
   padding-top: 60px;
   padding-bottom: 30px;
   background-color: #fff;
-  border-radius: 0 50px 0 0;
+  border-top-right-radius: 50px  ;
+
 }
 
 .about-myself {
