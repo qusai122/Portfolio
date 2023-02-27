@@ -417,7 +417,7 @@ ul {
   background-size: 60%;
   background-position-x: right;
   background-repeat: no-repeat;
-  margin-top: 40px;
+  margin-top: 70px;
   gap: 20px;
   padding: 103px 24px 45px 24px;
   border-top-left-radius: 92px;
@@ -460,12 +460,6 @@ form textarea {
   padding: 15px 0 15px 16px;
   color: #b3bac5;
 }
-
-/* form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 
 .submit-div {
   display: flex;
