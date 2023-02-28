@@ -1,13 +1,5 @@
 <a name="readme-top"></a>
 
-
-<div align="center">
- 
-  < <img src="assits/micro_logo.png" alt="logo" width="140"  height="auto" /> >
-  <br/>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -17,13 +9,13 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
- - [💻 Getting Started](#getting-started)
-   - [Setup](#setup)
-   - [Prerequisites](#prerequisites)
-   - [Install](#install)
-   - [Usage](#usage)
-   - [Run tests](#run-tests)
-   - [Deployment](#Deployment)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#Deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -35,11 +27,9 @@
 
 # 💼 Portfolio <a name="about-project"></a>
 
-> 
-**Portfolio**
-Hello it's me Qusai Issa from Palestine<br/>
-and this is my Portfolio.
-
+> **Portfolio**
+> Hello it's me Qusai Issa from Palestine<br/>
+> and this is my Portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,7 +42,6 @@ and this is my Portfolio.
   </ul>
 </details>
 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -61,8 +50,6 @@ and this is my Portfolio.
 - **Follow HTML and CSS best practice**
 - **Display Text**
 - **Follow GitHub flow**
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +61,6 @@ and this is my Portfolio.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -84,11 +70,11 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+
 - Visual Studio Code.
 - Node JS.
 - Git bash.
 - GitHub Account.
-
 
 ### Setup
 
@@ -102,42 +88,51 @@ Example commands:
   git clone git@github.com:KUBAHO3/Hello-Microverse.git
 ```
 --->
+
 ### Install
+
 Install this project with:
 npm
 Example command:
+
 ```sh
   cd my-project
   npm init -y
 ```
+
 ### Usage
+
 To run the project, execute the following command:
 npm start or live server
 Example command:
+
 ```sh
   GitHub Pages Server
 ```
+
 ### Run tests
+
 To run tests, run the following command:
 npm test
 Example command:
+
 ```sh
   npx stylelint "**/*.{css,scss}"
 ```
+
 ### Deployment
+
 It will be deployed after merge
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- AUTHORS -->
 
 👤 **Author**
-  Qusai Issa
+Qusai Issa
+
 - GitHub: [@qusai122](https://github.com/qusai122)
 - LinkedIn: [Qusai Issa](https://www.linkedin.com/in/qusai-issa-ab5a59156/)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,12 +176,10 @@ I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
