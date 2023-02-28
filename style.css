@@ -7,20 +7,9 @@
 
 /** Body elements **/
 body {
-  margin: 0;
-}
-
-.container {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
+  background-color: #f7f7f9;
+  height: auto;
+  font-family: "Inter", sans-serif;
 }
 
 .navbar {
