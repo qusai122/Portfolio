@@ -145,6 +145,7 @@ body {
   background-color: #fff;
   margin: 16px;
   margin-top: 40px;
+  border-radius: 16px;
 }
 
 .card-img {
