@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .fixed-top {
@@ -90,7 +90,8 @@ body {
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
-  margin-top: auto;
+  margin-top: 170px;
+  margin-bottom: 16px;
 }
 
 .hero-about_me {
@@ -108,10 +109,10 @@ body {
   padding: 0%;
   color: #505f79;
   gap: 10px;
+  margin-bottom: 128px;
 }
 
 .icon {
-  padding: 10px;
   color: #505f79;
   font-size: large;
   width: 20px;
@@ -119,7 +120,6 @@ body {
 
 .fa-brands {
   color: #505f79;
-  padding: 10px;
   font-size: large;
   width: 20px;
 }
@@ -345,8 +345,13 @@ ul {
 .about-me-intro {
   padding-top: 60px;
   padding-bottom: 30px;
+  padding-left: 9px;
   background-color: #fff;
   border-top-right-radius: 50px;
+}
+
+#about-me-icons {
+  margin-bottom: 24px;
 }
 
 .about-myself {
@@ -597,6 +602,9 @@ form textarea {
     color: #091e42;
     font-size: 48px;
     font-weight: 700;
+    padding-left: 6%;
+    border-top-right-radius: 0;
+    width: 40%;
   }
 
   .about-me {
@@ -665,10 +673,10 @@ form textarea {
 
   .my-skills {
     padding-top: 10vh;
-    width: 50%;
-    border-radius: 0 50px 0 0;
+    width: 60%;
     padding-bottom: 10vh;
     padding-right: 5%;
+    border-radius: 0;
   }
 
   .sub-skills {
@@ -681,7 +689,7 @@ form textarea {
     flex-direction: column;
     margin-bottom: 10px;
     margin-left: 0;
-    margin-right: 10px;
+    margin-right: 12px;
   }
 
   .sub-skill-img {
@@ -706,12 +714,24 @@ form textarea {
     padding-right: 30%;
     padding-left: 30%;
     padding-bottom: 10vh;
+    align-items: center;
+    display: flex;
   }
 
   #center {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .submit-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #submit {
+    align-self: center;
   }
 
   .hero {
