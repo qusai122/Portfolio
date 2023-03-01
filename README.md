@@ -50,7 +50,10 @@
 - **Follow HTML and CSS best practice**
 - **Display Text**
 - **Follow GitHub flow**
-
+- **Display Cards**
+- **Hoover Buttons**
+- **Mobile Version**
+- **Desktop Version**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
