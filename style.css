@@ -398,19 +398,16 @@ ul {
   margin-bottom: 20px;
 }
 
-.skill-img{
+.sub-skill-img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
 }
 
-.sup-skill-name {
-  font-family: 'Poppins';
-  font-style: normal;
+.sub-skill-name {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 15px;
   color: #253858;
   padding-top: 15px;
 }
@@ -527,15 +524,19 @@ form textarea {
     color: #344563;
   }
 
-  .container {
-    padding-right: 10%;
-    padding-left: 10%;
-  }
+
   .navbar {
     padding-top: 0;
     padding-bottom: 0;
     width: 100%;
     margin: 0px;
+  }
+  .fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
   }
 
   .menu-list {
@@ -674,10 +675,9 @@ form textarea {
   .sub-skills{
     display: flex;
     flex-direction: row;
-    gap: 12px;
   }
 
-  .sub-skill {
+  .sub-skill{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -700,7 +700,7 @@ form textarea {
   }
 
   .contact-form {
-    background-image: url("./images/assits/desktop-background2");
+    background-image: url("./assits/desktop-background2.png");
     background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: 90% 95%;
