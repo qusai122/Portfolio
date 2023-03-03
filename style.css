@@ -72,6 +72,8 @@ body {
   font-size: 40px;
   font-weight: 700;
   margin-top: auto;
+  animation-name: slide-in;
+  animation-duration: 2s;
 }
 
 .hero-about_me {
@@ -80,6 +82,16 @@ body {
   font-size: 16px;
   color: #344563;
   text-decoration: none;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 200px;
+  }
+  to {
+    margin-left: 0px;
+  }
+
 }
 
 .icon-group {
