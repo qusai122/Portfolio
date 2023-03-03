@@ -269,15 +269,12 @@ ul {
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
   margin-bottom: 20px;
   padding-left: 0.1px;
 }
 
 .tag-item {
-  display: flex;
-  flex-direction: row;
+  float: left;
   align-items: center;
   background: #ebebff;
   border-radius: 8px;
@@ -606,15 +603,6 @@ form textarea {
   .logo-div {
     margin-left: 8%;
     align-items: center;
-  }
-
-  header {
-    padding-right: 8%;
-  }
-
-  .navbar {
-    padding-right: 8%;
-
   }
 
   .menu-list {
