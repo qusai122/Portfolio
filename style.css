@@ -103,19 +103,21 @@ body {
 }
 
 .icon-group {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   list-style-type: none;
   padding: 0%;
   color: #505f79;
-  gap: 10px;
+  /* gap: 10px; */
   margin-bottom: 128px;
 }
 
 .icon {
+  float: left;
   color: #505f79;
   font-size: large;
   width: 20px;
+  margin-right: 10px;
 }
 
 .fa-brands {
