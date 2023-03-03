@@ -7,9 +7,23 @@
 
 /** Body elements **/
 body {
-  background-color: #f7f7f9;
+  background-color: #e5e5e5;
   height: auto;
   font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .navbar {
@@ -19,7 +33,8 @@ body {
   justify-content: space-between;
   position: fixed;
   height: 50px;
-  padding-top: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #fff;
 }
 
@@ -30,7 +45,7 @@ body {
 #logo {
   color: #6070ff;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 20px;
   font-weight: 700;
   margin-left: 24px;
@@ -39,6 +54,10 @@ body {
 .menu {
   color: #6070ff;
   font-size: 1.3rem;
+}
+
+.menu-list {
+  display: none;
 }
 
 #navbar-icone {
@@ -71,7 +90,8 @@ body {
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
-  margin-top: auto;
+  margin-top: 100px;
+  margin-bottom: 16px;
 }
 
 .hero-about_me {
@@ -88,16 +108,20 @@ body {
   list-style-type: none;
   padding: 0%;
   color: #505f79;
+  gap: 10px;
+  margin-bottom: 128px;
 }
 
 .icon {
-  padding: 10px;
   color: #505f79;
   font-size: large;
+  width: 20px;
 }
 
 .fa-brands {
   color: #505f79;
+  font-size: large;
+  width: 20px;
 }
 
 .welcome {
@@ -133,11 +157,13 @@ body {
   display: grid;
   justify-content: center;
   width: 100%;
-  background-color: #f7f7f9;
+  background-color: #e5e5e5;
   overflow: hidden;
+  padding: 142px;
+  padding-top: 86px;
 }
 
-.card {
+.my-card {
   padding: 10px 10px 30px 10px;
   border-collapse: separate;
   perspective: 1px;
@@ -147,7 +173,7 @@ body {
   margin-top: 40px;
 }
 
-.card-img {
+.my-card img {
   width: 70%;
 }
 
@@ -309,7 +335,7 @@ ul {
 }
 
 .about-me {
-  background-color: #f7f7f9;
+  background-color: #e5e5e5;
 }
 
 .about-myself-tittle {
@@ -321,8 +347,13 @@ ul {
 .about-me-intro {
   padding-top: 60px;
   padding-bottom: 30px;
+  padding-left: 9px;
   background-color: #fff;
   border-top-right-radius: 50px;
+}
+
+#about-me-icons {
+  margin-bottom: 24px;
 }
 
 .about-myself {
@@ -491,4 +522,325 @@ form textarea {
 #submit:disabled {
   color: #5e6c84;
   border: 1px solid #c1c7d0;
+}
+
+.a {
+  color: #344563;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #menu-icon {
+    display: none;
+  }
+
+  a {
+    text-decoration-line: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+    background-color: #344563;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .connect_me a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .fixed-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .aaaa {
+    color: #344563;
+    margin: 0;
+  }
+
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-text {
+    font-size: 50px;
+  }
+
+  #nav-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: safe;
+  }
+
+  #logo {
+    color: #6070ff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-left: 24px;
+  }
+
+  .logo-div {
+    align-items: center;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .menu-list > li {
+    margin-left: 30px;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .hero-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("./assits/desktop-background1.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0 0 0 50px;
+  }
+
+  .hero-welcome {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .hero-about_me {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .hero-holder {
+    background-color: #e5e5e5;
+  }
+
+  .about-me-intro {
+    color: #091e42;
+    font-size: 48px;
+    font-weight: 700;
+    padding-left: 6%;
+    border-top-right-radius: 0;
+    width: 40%;
+  }
+
+  .about-me {
+    display: flex;
+  }
+
+  .contact-main-text {
+    width: 100%;
+  }
+
+  #about-me-icons {
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+
+  .my-card {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+  }
+
+  .my-card img {
+    width: 50%;
+  }
+
+  .my-card img.swap {
+    order: 1;
+  }
+
+  .main-card-text {
+    padding-left: 20px;
+    width: 50%;
+  }
+
+  h2.card-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #172b4d;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    line-height: 52px;
+  }
+
+  .card-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card-desc .client-text {
+    font-weight: 600;
+    font-size: 13px;
+    color: #344563;
+  }
+
+  .card-desc .role-text {
+    font-weight: 600;
+    font-size: 13px;
+    color: #7a869a;
+    padding-left: 20px;
+  }
+
+  .card-desc .year-text {
+    font-weight: 600;
+    font-size: 13px;
+    color: #7a869a;
+    padding-left: 20px;
+  }
+
+  p.card-info {
+    font-weight: 400px;
+    font-size: 16px;
+    color: #344563;
+  }
+
+  .my-skills {
+    padding-top: 10vh;
+    width: 60%;
+    padding-bottom: 10vh;
+    padding-right: 5%;
+    border-top-right-radius: 50px;
+  }
+
+  .sub-skills {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .sub-skill {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 12px;
+    padding: 12px;
+    width: 122px;
+    height: 120px;
+  }
+
+  .sub-skill-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 10px;
+  }
+
+  .sub-skill-name {
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* or 133% */
+
+    display: flex;
+    align-items: center;
+
+    /* Neutrals/N700 */
+
+    color: #253858;
+  }
+
+  .skill-name {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #344563;
+  }
+
+  .fas {
+    color: #344563;
+  }
+
+  .contact-form {
+    background-image: url("./assits/desktop-background2.png");
+    background-color: #6070ff;
+    background-repeat: no-repeat;
+    background-size: 90% 95%;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-bottom: 10vh;
+    align-items: center;
+    display: flex;
+  }
+
+  #center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .submit-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #submit {
+    align-self: center;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("./assits/desktop-background3.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    border-radius: 0 0 0 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

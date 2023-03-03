@@ -50,14 +50,17 @@
 - **Follow HTML and CSS best practice**
 - **Display Text**
 - **Follow GitHub flow**
-
+- **Display Cards**
+- **Hoover Buttons**
+- **Mobile Version**
+- **Desktop Version**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://qusai122.github.io)
+- [Live Demo Link](https://qusai122.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
