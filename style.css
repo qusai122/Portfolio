@@ -608,15 +608,21 @@ form textarea {
     align-items: center;
   }
 
-  .nav {
+  header {
     padding-right: 8%;
+  }
+
+  .navbar {
+    padding-right: 8%;
+
   }
 
   .menu-list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0;
+    margin: 0px;
+    padding-left: 0px;
   }
 
   .menu-list > li {
