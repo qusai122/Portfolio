@@ -28,12 +28,18 @@ body {
 }
 
 #logo {
-  color: #6070ff;
+  color: #262d70;
   text-decoration: none;
   font-size: 25px;
   line-height: 20px;
   font-weight: 700;
   margin-left: 24px;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+#logo:hover {
+  color: #afb3da;
+  font-size: 30px;
 }
 
 .menu {
@@ -71,7 +77,6 @@ body {
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
-  margin-top: auto;
   animation-name: slide-in;
   animation-duration: 2s;
 }
@@ -156,10 +161,6 @@ body {
   background-color: #fff;
   margin: 16px;
   margin-top: 40px;
-}
-
-.card-img {
-  width: 70%;
 }
 
 .container1 {
@@ -285,8 +286,20 @@ ul {
 }
 
 .view-more:hover {
-  background-color: #6465ff; /* Green */
-  color: #fff;
+  /* background-color: #6465ff; 
+  color: #fff; */
+  animation-name: changing-background;
+  animation-duration: 0.5s;
+}
+@keyframes changing-background {
+  from {
+    color: #396df2;
+    background-color: #fff;
+  }
+  to {
+    background-color: #6465ff; /* Green */
+    color: #fff;
+  }
 }
 
 .view-more:active {
