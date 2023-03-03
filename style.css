@@ -604,7 +604,12 @@ form textarea {
   }
 
   .logo-div {
+    margin-left: 8%;
     align-items: center;
+  }
+
+  .nav {
+    padding-right: 8%;
   }
 
   .menu-list {
