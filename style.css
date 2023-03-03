@@ -233,7 +233,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   color: #7a869a;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 .year-text {
@@ -243,7 +243,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   color: #7a869a;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 ul {
@@ -251,9 +251,13 @@ ul {
 }
 
 .card-desc {
-  display: flex;
-  flex-direction: row;
+  /* float: inline-start; */
   align-items: center;
+}
+
+.float {
+  float: left;
+  margin-right: 10px;
 }
 
 .main-card-text {
