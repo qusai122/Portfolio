@@ -28,12 +28,18 @@ body {
 }
 
 #logo {
-  color: #6070ff;
+  color: #262d70;
   text-decoration: none;
   font-size: 25px;
   line-height: 20px;
   font-weight: 700;
   margin-left: 24px;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+#logo:hover {
+  color: #afb3da;
+  font-size: 30px;
 }
 
 .menu {
@@ -71,7 +77,6 @@ body {
   color: #172b4d;
   font-size: 40px;
   font-weight: 700;
-  margin-top: auto;
   animation-name: slide-in;
   animation-duration: 2s;
 }
@@ -91,7 +96,6 @@ body {
   to {
     margin-left: 0px;
   }
-
 }
 
 .icon-group {
