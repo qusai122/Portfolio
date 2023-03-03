@@ -163,10 +163,6 @@ body {
   margin-top: 40px;
 }
 
-.card-img {
-  width: 70%;
-}
-
 .container1 {
   max-width: 4000px;
   width: 100%;
@@ -290,8 +286,20 @@ ul {
 }
 
 .view-more:hover {
-  background-color: #6465ff; /* Green */
-  color: #fff;
+  /* background-color: #6465ff; 
+  color: #fff; */
+  animation-name: changing-background;
+  animation-duration: 0.5s;
+}
+@keyframes changing-background {
+  from {
+    color: #396df2;
+    background-color: #fff;
+  }
+  to {
+    background-color: #6465ff; /* Green */
+    color: #fff;
+  }
 }
 
 .view-more:active {
