@@ -537,7 +537,7 @@ form textarea {
   margin-bottom: 45px;
   animation-name: get-smaller;
   animation-duration: 2s;
-  width: 25%;
+  width: fit-content;
 }
 
 @keyframes get-smaller {
