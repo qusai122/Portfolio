@@ -92,6 +92,18 @@ body {
   font-weight: 700;
   margin-top: 100px;
   margin-bottom: 16px;
+  animation-name: slide-in;
+  animation-duration: 2s;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 0;
+  }
 }
 
 .hero-about_me {
@@ -462,6 +474,18 @@ ul {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
+  animation-name: slide-in-revers;
+  animation-duration: 2s;
+}
+
+@keyframes slide-in-revers {
+  from {
+    margin-right: 100px;
+  }
+
+  to {
+    margin-right: 0;
+  }
 }
 
 .contact-main-text {
@@ -481,6 +505,8 @@ form input {
   border-radius: 8px;
   padding: 15px 0 15px 16px;
   color: #172b4d;
+  animation-name: slide-in;
+  animation-duration: 2s;
 }
 
 form textarea {
@@ -490,6 +516,8 @@ form textarea {
   border-radius: 8px;
   padding: 15px 0 15px 16px;
   color: #b3bac5;
+  animation-name: slide-in;
+  animation-duration: 2s;
 }
 
 .submit-div {
@@ -507,11 +535,25 @@ form textarea {
   padding: 12px 16px;
   border: none;
   margin-bottom: 45px;
+  animation-name: get-smaller;
+  animation-duration: 2s;
+  width: fit-content;
+}
+
+@keyframes get-smaller {
+  from {
+    width: 50%;
+  }
+
+  to {
+    width: 25%;
+  }
 }
 
 #submit:hover {
   color: #fff;
   background: #6070ff;
+  border: 1px solid #fff;
 }
 
 #submit:focus {
@@ -684,6 +726,11 @@ form textarea {
     width: 50%;
   }
 
+  .my-card img:hover {
+    width: 55%;
+    transition: width 2s, height 2s;
+  }
+
   .my-card img.swap {
     order: 1;
   }
@@ -765,6 +812,12 @@ form textarea {
     border-radius: 50%;
     border: 1px solid #fff;
     margin-right: 10px;
+  }
+
+  .sub-skill-img:hover {
+    width: 55px;
+    height: 55px;
+    transition-duration: 0.5s;
   }
 
   .sub-skill-name {
