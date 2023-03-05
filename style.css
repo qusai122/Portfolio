@@ -617,8 +617,13 @@ form textarea {
   }
 
   .aaaa {
-    color: #344563;
     margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
   }
 
   .navbar {
@@ -642,7 +647,7 @@ form textarea {
     font-size: 20px;
     line-height: 20px;
     font-weight: 700;
-    margin-left: 24px;
+    margin-left: 150px;
   }
 
   .logo-div {
@@ -653,7 +658,7 @@ form textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0;
+    margin-right: 150px;
   }
 
   .menu-list > li {
@@ -662,8 +667,12 @@ form textarea {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    color: #344563;
-  }
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;  }
 
   .hero-intro {
     display: flex;
