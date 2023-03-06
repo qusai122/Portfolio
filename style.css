@@ -664,15 +664,13 @@ form textarea {
   .menu-list > li {
     margin-left: 30px;
     list-style-type: none;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #344563;  }
+    color: #344563;
+  }
 
   .hero-intro {
     display: flex;
