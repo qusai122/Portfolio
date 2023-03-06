@@ -137,6 +137,10 @@ Qusai Issa
 - GitHub: [@qusai122](https://github.com/qusai122)
 - LinkedIn: [Qusai Issa](https://www.linkedin.com/in/qusai-issa-ab5a59156/)
 
+Harshika Govind
+-Github:[@harshi0102](https://github.com/harshi0102)
+-Linkedin:[Harshika Govind](https://www.linkedin.com/in/harshikagovind)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
