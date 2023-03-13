@@ -104,3 +104,8 @@ function AddMenu(selected, modalPart, opener, number) {
     }
   });
 }
+AddMenu(viewModal1, WorkModal, 'nav-toggle', 1);
+AddMenu(viewModal2, WorkModal, 'nav-toggle', 2);
+AddMenu(viewModal3, WorkModal, 'nav-toggle', 3);
+AddMenu(viewModal4, WorkModal, 'nav-toggle', 4);
+RemoveMenu(nav, nav, 'nav-toggle');

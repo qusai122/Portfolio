@@ -621,6 +621,104 @@ form textarea {
   text-decoration: none;
   background-color: transparent;
 }
+/* Creating details popup card*/
+
+.modal-section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  transition: 0.2s ease-in-out;
+  background-color: rgba(250, 251, 253, 0.8);
+  background-color: rgba(165, 185, 224, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: none;
+  overflow: auto;
+}
+
+.card-modal {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 4%;
+  margin-top: 2.5%;
+  padding: 20px;
+}
+
+.card-modal-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-modal-head > .title {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.close-modal {
+  font-size: 35px;
+  color: #67798e;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.card-modal-head-body {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.card-modal-hr {
+  color: #ebecf0;
+}
+
+.card-modal-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-modal-middle > .description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#techs {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+#techs-item {
+  margin-top: 10px;
+}
+
+#btn-link {
+  text-decoration: none;
+}
+
+.btn-icon {
+  margin-left: 7px;
+  margin-bottom: -8px;
+}
+
+.card-modal-btn {
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-bottom: 20px;
+  display: inline-flex;
+  width: 40%;
+  justify-content: center;
+}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -953,4 +1051,27 @@ form textarea {
     font-size: 16px;
     line-height: 24px;
   }
+
+  .card-modal-middle {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card-modal-middle > .description {
+    width: 60%;
+  }
+
+  .card-modal-middle > .card-modal-middle-group {
+    width: 40%;
+  }
+
+  .card-modal-hr {
+    color: #ebecf0;
+  }
+
+  .card-modal-img {
+    width: 100%;
+    height: 586px;
+  }
+
 }
