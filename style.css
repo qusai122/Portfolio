@@ -445,6 +445,10 @@ ul {
   color: #000;
 }
 
+.fas {
+  font-size: 16px;
+}
+
 .skill-name.fas {
   font-weight: 500;
   font-style: normal;
