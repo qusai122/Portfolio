@@ -60,6 +60,52 @@ body {
   display: none;
 }
 
+.mobile-nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s ease-in-out;
+  background-color: rgba(41, 58, 208, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: none;
+}
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+}
+
+.close-button {
+  color: #fff;
+  font-size: 34px;
+  padding: 0 7px;
+  float: right;
+  margin-left: 85%;
+}
+
+.menu-list-mobile > li {
+  list-style-type: none;
+}
+
+.connect-me a {
+  color: #7f8cff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.menu-list-mobile > li > a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+}
+
 #navbar-icone {
   color: #6070ff;
   text-decoration: none;
