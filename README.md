@@ -35,10 +35,15 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
+This Project was buiilt with HTML, CSS and JavaScript
+
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://html.com/">HTML</a></li>
+  </ul>
+    <ul>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -163,9 +168,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+if you like this project, kindly give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,9 +176,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank all my colleagues and code reviewers in microverse for helping me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
