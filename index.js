@@ -61,3 +61,46 @@ const cardDetails = [
     sourceCode: 'https://github.com/qusai122',
   },
 ];
+function renderModal(number) {
+  const card = details[number];
+  const modalInstance = ` <div class=" card-modal">
+      <div class="card-modal-head">
+          <h1 class="title card-modal-head">${card.title}</h1>
+          <span class="close-modal">x</span>
+      </div>
+      <div class="position card-modal-head-body">
+          <h4 class="place">${card.name}</h4>
+          <H5 class="post-name">&#x25cf; ${card.technology}</H5>
+          <H5 class="post-year">&#x25cf; ${card.year}</H5>
+      </div>
+      <img class="card-modal-img" src=${card.imageUrl} alt="The Snapshoot-Portfolio image">
+      <div class="card-modal-middle">
+      <p class="description">
+      ${card.description}
+          </p>
+          <div class="card-modal-middle-group">
+              <div class="techs" id="techs">
+                  ${card.languages.map((lang) => `<div class="single-tech" id="techs-item">${lang}</div>`).join('')}
+                
+                  </div>
+                  <hr class="card-modal-hr">
+                  <div class="card-modal-btn-grp">
+                  <a href=${card.liveLink} id="btn-link" ><button type="button" class="view-more card-modal-btn">See live <img class="btn-icon" src="images/icons/Icon.png" alt="icon img"></button></a>
+                  <a href=${card.sourceCode} id="btn-link" <button type="button" class="view-more card-modal-btn">See Source <img class="btn-icon" src="images/icons/Vector.png" alt="icon img"></button></a>
+                  </div>
+                  </div> 
+                  </div>
+    </div>`;
+
+  WorkModal.innerHTML = modalInstance;
+}
+function AddMenu(selected, modalPart, opener, number) {
+  return selected.addEventListener('click', () => {
+    modalPart.classList.add(opener);
+    modalPart.style.top = '0px';
+
+    if (number) {
+      renderModal(number - 1);
+    }
+  });
+}
