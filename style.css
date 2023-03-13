@@ -81,9 +81,15 @@ body {
 .close-button {
   color: #fff;
   font-size: 34px;
-  padding: 0 7px;
+  padding-top: 50px;
   float: right;
   margin-left: 85%;
+}
+
+.connect_me a {
+  color: #7f8cff;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .menu-list-mobile > li {
@@ -203,12 +209,6 @@ body {
   font-size: 16px;
   color: #344563;
   text-decoration: none;
-}
-
-.connect_me a {
-  color: #7f8cff;
-  text-decoration: none;
-  font-size: 16px;
 }
 
 .cards {
