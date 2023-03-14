@@ -142,6 +142,12 @@ Qusai Issa
 - GitHub: [@qusai122](https://github.com/qusai122)
 - LinkedIn: [Qusai Issa](https://www.linkedin.com/in/qusai-issa-ab5a59156/)
 
+ **Isabella Otoo**
+
+- GitHub: [@githubhandle](https://github.com/Bellagirl-maker)
+- Twitter: [@twitterhandle](https://twitter.com/isabella_otoo)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/isabella-otoo-935901146/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
