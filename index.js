@@ -6,12 +6,18 @@ const nav = ReadElement('.mobile-nav');
 const closeNav = ReadElement('.close-button');
 const choose = ReadElement('.mobile-nav');
 function AddMenu(selected) {
-  document.body.classList.add("stop-scrolling");
-  return selected.addEventListener('click', () => nav.classList.add('nav-toggle'));
+  return selected.addEventListener('click',Add);
+}
+function Add(){
+  nav.classList.add('nav-toggle');
+  document.body.classList.add('stop-scrolling');
 }
 function RemoveMenu(selected) {
-  document.body.classList.remove("stop-scrolling");
-  return selected.addEventListener('click', () => nav.classList.remove('nav-toggle'));
+  return selected.addEventListener('click', Remove);
+}
+function Remove(){
+  nav.classList.remove('nav-toggle');
+  document.body.classList.remove('stop-scrolling');
 }
 AddMenu(menu);
 RemoveMenu(closeNav);

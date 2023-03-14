@@ -15,6 +15,7 @@ body {
 
 .stop-scrolling {
   overflow: hidden;
+  height: 100%;
 }
 
 .container {
