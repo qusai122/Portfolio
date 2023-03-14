@@ -13,6 +13,10 @@ body {
   margin: 0;
 }
 
+.stop-scrolling {
+  overflow: hidden;
+}
+
 .container {
   padding-left: 10%;
   padding-right: 10%;

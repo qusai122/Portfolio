@@ -6,9 +6,11 @@ const nav = ReadElement('.mobile-nav');
 const closeNav = ReadElement('.close-button');
 const choose = ReadElement('.mobile-nav');
 function AddMenu(selected) {
+  document.body.classList.add("stop-scrolling");
   return selected.addEventListener('click', () => nav.classList.add('nav-toggle'));
 }
 function RemoveMenu(selected) {
+  document.body.classList.remove("stop-scrolling");
   return selected.addEventListener('click', () => nav.classList.remove('nav-toggle'));
 }
 AddMenu(menu);
