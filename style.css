@@ -1092,6 +1092,7 @@ form textarea {
     display: inline-flex;
     flex-direction: row;
     gap: 8px;
+    margin-top: 59px;
   }
 
   .card-modal-middle > .description {
