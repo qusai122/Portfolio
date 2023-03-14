@@ -84,7 +84,7 @@ function renderModal(number) {
       </div>
       <img class="card-modal-img" src=${card.imageUrl} alt="The Snapshoot-Portfolio image">
       <div class="card-modal-middle">
-      <div class="card-modal-middle-group1"> <p class="card-info">
+      <div class="card-modal-middle-group1"> <p class="card-info-model">
       ${card.description}
           </p>
           </div>
@@ -95,8 +95,8 @@ function renderModal(number) {
                   </div>
                   <hr class="card-modal-hr">
                   <div class="card-modal-btn-grp">
-                  <a href=${card.liveLink} id="btn-link" <button type="button" class="view-more card-modal-btn">See live <img class="btn-icon" src="assits/card-icon1.png" alt="icon img"></button></a>
-                  <a href=${card.sourceCode} id="btn-link" <button type="button" class="view-more card-modal-btn">See Source <img class="btn-icon" src="assits/card-icon2.png" alt="icon img"></button></a>
+                  <a href=${card.liveLink} id="btn-link" <button type="button" class="view-more card-modal-btn"><p class="card-modal-btn-text">See live</p> <img class="btn-icon" src="assits/card-icon1.png" alt="icon img"></button></a>
+                  <a href=${card.sourceCode} id="btn-link" <button type="button" class="view-more card-modal-btn"><p class="card-modal-btn-text">See Source</p> <img class="btn-icon" src="assits/card-icon2.png" alt="icon img"></button></a>
                   </div>
                   </div> 
                   </div>

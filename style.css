@@ -11,6 +11,7 @@ body {
   height: auto;
   font-family: "Inter", sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .stop-scrolling {
@@ -215,9 +216,8 @@ body {
   display: grid;
   justify-content: center;
   width: 100%;
-  background-color: #e5e5e5;
+  background-color: #f7f7f9;
   overflow: hidden;
-  padding: 142px;
   padding-top: 86px;
 }
 
@@ -229,10 +229,11 @@ body {
   background-color: #fff;
   margin: 16px;
   margin-top: 40px;
+  border: 1px solid #dfe1e6;
 }
 
 .my-card img {
-  width: 70%;
+  width: 100%;
 }
 
 .container1 {
@@ -635,6 +636,7 @@ form textarea {
   backdrop-filter: blur(5px);
   display: none;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .nav-toggle {
@@ -648,6 +650,7 @@ form textarea {
   border-radius: 16px;
   padding: 24px;
   margin: 4%;
+  overflow-x: hidden;
 }
 
 .card-modal-head {
@@ -680,8 +683,18 @@ form textarea {
   color: #ebecf0;
 }
 
+.card-info-model {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400px;
+  color: #344563;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 .card-modal-img {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
@@ -713,6 +726,8 @@ form textarea {
 .btn-icon {
   margin-left: 7px;
   margin-bottom: -8px;
+  height: 22px;
+  padding-top: 5px;
 }
 
 .card-modal-btn {
@@ -722,6 +737,19 @@ form textarea {
   display: inline-flex;
   width: 45%;
   justify-content: center;
+}
+
+.card-modal-btn-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070FF;
+  margin: 0;
 }
 
 .card-modal-btn-grp {
@@ -1091,4 +1119,10 @@ form textarea {
   .card-modal-btn {
     width: 45%;
   }
+
+  .btn-icon {
+    padding-top: 0px;
+    height: 18px;
+  }
+  
 }
