@@ -104,13 +104,31 @@ function renderModal(number) {
 
   CardModal.innerHTML = modalInstance;
 }
-function AddMenu(selected, modalPart, opener, number) {
+function Addwindow(selected, modalPart, opener, number) {
   return selected.addEventListener('click', () => {
     modalPart.classList.add(opener);
     modalPart.style.top = '0px';
 
     if (number) {
       renderModal(number - 1);
+        document.body.classList.add('stop-scrolling');
     }
   });
 }
+function RemoveWindow(selected, modalPart, remover) {
+  return selected.addEventListener('click', () => {
+    modalPart.classList.remove(remover)
+    document.body.classList.remove('stop-scrolling');
+  });
+}
+
+
+
+Addwindow(menu, nav, 'nav-toggle');
+Addwindow(viewModal1, CardModal, 'nav-toggle', 1);
+Addwindow(viewModal2, CardModal, 'nav-toggle', 2);
+Addwindow(viewModal3, CardModal, 'nav-toggle', 3);
+Addwindow(viewModal4, CardModal, 'nav-toggle', 4);
+RemoveWindow(CardModal, CardModal, 'nav-toggle');
+RemoveWindow(closeNav, nav, 'nav-toggle');
+RemoveWindow(nav, nav, 'nav-toggle');
