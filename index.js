@@ -1,8 +1,3 @@
-const viewModal1 = ReadElement('.view-card-1');
-const viewModal2 = ReadElement('.view-card-2');
-const viewModal3 = ReadElement('.view-card-3');
-const viewModal4 = ReadElement('.view-card-4');
-const CardModal = ReadElement('.modal-section');
 function ReadElement(selector) {
   return document.querySelector(selector);
 }
@@ -10,6 +5,11 @@ const menu = ReadElement('#menu-icon');
 const nav = ReadElement('.mobile-nav');
 const closeNav = ReadElement('.close-button');
 const choose = ReadElement('.mobile-nav');
+const viewModal1 = ReadElement('.view-card-1');
+const viewModal2 = ReadElement('.view-card-2');
+const viewModal3 = ReadElement('.view-card-3');
+const viewModal4 = ReadElement('.view-card-4');
+const CardModal = ReadElement('.modal-section');
 function Add() {
   nav.classList.add('nav-toggle');
   document.body.classList.add('stop-scrolling');
@@ -108,21 +108,19 @@ function Addwindow(selected, modalPart, opener, number) {
   return selected.addEventListener('click', () => {
     modalPart.classList.add(opener);
     modalPart.style.top = '0px';
-
     if (number) {
       renderModal(number - 1);
-        document.body.classList.add('stop-scrolling');
+      document.body.classList.add('stop-scrolling');
     }
   });
 }
+
 function RemoveWindow(selected, modalPart, remover) {
   return selected.addEventListener('click', () => {
-    modalPart.classList.remove(remover)
+    modalPart.classList.remove(remover);
     document.body.classList.remove('stop-scrolling');
   });
 }
-
-
 
 Addwindow(menu, nav, 'nav-toggle');
 Addwindow(viewModal1, CardModal, 'nav-toggle', 1);
