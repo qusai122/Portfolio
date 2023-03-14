@@ -731,11 +731,10 @@ form textarea {
 
 .card-modal-btn {
   margin-top: 10px;
-  margin-left: 2%;
   margin-bottom: 20px;
   display: inline-flex;
-  width: 45%;
-  justify-content: center;
+  width: 48%;
+  justify-content: space-between;
 }
 
 .card-modal-btn-text {
@@ -744,7 +743,7 @@ form textarea {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   text-align: center;
   color: #6070ff;
