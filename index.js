@@ -10,6 +10,10 @@ const viewModal2 = ReadElement('.view-card-2');
 const viewModal3 = ReadElement('.view-card-3');
 const viewModal4 = ReadElement('.view-card-4');
 const CardModal = ReadElement('.modal-section');
+const emailer = ReadElement('#useremail');
+const validator = ReadElement('.validator');
+const submitbtn = ReadElement('#submit');
+
 function Add() {
   nav.classList.add('nav-toggle');
   document.body.classList.add('stop-scrolling');
@@ -130,3 +134,23 @@ Addwindow(viewModal4, CardModal, 'nav-toggle', 4);
 RemoveWindow(CardModal, CardModal, 'nav-toggle');
 RemoveWindow(closeNav, nav, 'nav-toggle');
 RemoveWindow(nav, nav, 'nav-toggle');
+
+function EmailValidation(e) {
+  const email = emailer.value;
+  let text;
+  if (email === email.toLowerCase() && email !== '') {
+    text = 'Email is inserted in lowercase as required';
+    validator.innerHTML = text;
+    validator.classList.add('validator-green');
+    submitbtn.style.marginTop = '20px';
+  } else {
+    text = 'Email is required and has to be in lowercase';
+    validator.innerHTML = text;
+    validator.classList.remove('validator-green');
+    validator.classList.add('validator-red');
+    submitbtn.style.marginTop = '20px';
+    e.preventDefault();
+  }
+}
+const e = this;
+submitbtn.addEventListener('click', () => EmailValidation(e));
