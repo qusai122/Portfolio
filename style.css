@@ -624,21 +624,20 @@ form textarea {
 /* Creating details popup card*/
 
 .modal-section {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   position: fixed;
   width: 100%;
   min-height: 100vh;
   transition: 0.2s ease-in-out;
-  background-color: rgba(250, 251, 253, 0.8);
   background-color: rgba(165, 185, 224, 0.5);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   display: none;
   overflow: auto;
+}
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
 }
 
 .card-modal {
@@ -681,20 +680,24 @@ form textarea {
 }
 
 .card-modal-img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
+.card-modal-middle {
+  padding-top: 8px;
+}
 
-.card-modal-middle > .description {
+.card-modal-middle > .card-info {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+  padding-top: 8px;
 }
 
 #techs {
   display: grid;
   grid-template-columns: auto auto auto;
-  justify-content: center;
+  justify-content: left;
 }
 
 #techs-item {
@@ -717,6 +720,12 @@ form textarea {
   display: inline-flex;
   width: 40%;
   justify-content: center;
+}
+
+.card-modal-btn-grp {
+  display:inline-flex;
+  gap: 12px;
+  
 }
 
 
@@ -1053,16 +1062,20 @@ form textarea {
   }
 
   .card-modal-middle {
-    display: flex;
+    display:inline-flex;
     flex-direction: row;
+    
   }
 
   .card-modal-middle > .description {
-    width: 60%;
+    width: 95%;
   }
 
-  .card-modal-middle > .card-modal-middle-group {
-    width: 40%;
+  .card-modal-middle > .card-modal-middle-group1 {
+    width: 80%;
+  }
+  .card-modal-middle > .card-modal-middle-group2 {
+    width: 20%;
   }
 
   .card-modal-hr {
@@ -1070,7 +1083,8 @@ form textarea {
   }
 
   .card-modal-img {
-    width: 100%;
+    width: 80%;
+    padding-left: 10%;
     height: 586px;
   }
 
