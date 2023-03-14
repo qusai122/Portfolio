@@ -557,6 +557,7 @@ ul {
 .form-class {
   width: 100%;
 }
+
 @keyframes slide-in-revers {
   from {
     margin-right: 100px;
