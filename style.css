@@ -78,11 +78,6 @@ body {
   display: none;
 }
 
-.nav-toggle {
-  display: flex;
-  flex-direction: column;
-}
-
 .close-button {
   color: #fff;
   font-size: 34px;
@@ -626,13 +621,13 @@ form textarea {
   text-decoration: none;
   background-color: transparent;
 }
-/* Creat style for popup window*/
 
+/* Creat style for popup window */
 
 .modal-section {
   position: fixed;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   transition: 0.2s ease-in-out;
   background-color: rgba(165, 185, 224, 0.5);
   -webkit-backdrop-filter: blur(5px);
@@ -689,6 +684,7 @@ form textarea {
   width: 80%;
   height: auto;
 }
+
 .card-modal-middle {
   padding-top: 8px;
 }
@@ -731,7 +727,6 @@ form textarea {
 .card-modal-btn-grp {
   display: block;
   gap: 12px;
-  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1067,7 +1062,7 @@ form textarea {
   }
 
   .card-modal-middle {
-    display:inline-flex;
+    display: inline-flex;
     flex-direction: row;
     gap: 8px;
   }
@@ -1079,6 +1074,7 @@ form textarea {
   .card-modal-middle > .card-modal-middle-group1 {
     width: 70%;
   }
+
   .card-modal-middle > .card-modal-middle-group2 {
     width: 30%;
   }
@@ -1090,7 +1086,6 @@ form textarea {
   .card-modal-img {
     height: 586px;
     width: 100%;
-    
   }
 
   .card-modal-btn {
