@@ -1,3 +1,8 @@
+const viewModal1 = ReadElement('.view-card-1');
+const viewModal2 = ReadElement('.view-card-2');
+const viewModal3 = ReadElement('.view-card-3');
+const viewModal4 = ReadElement('.view-card-4');
+const CardModal = ReadElement('.modal-section');
 function ReadElement(selector) {
   return document.querySelector(selector);
 }
@@ -65,3 +70,47 @@ const cardDetails = [
     sourceCode: 'https://github.com/qusai122',
   },
 ];
+function renderModal(number) {
+  const card = cardDetails[number];
+  const modalInstance = ` <div class=" card-modal">
+      <div class="card-modal-head">
+          <h1 class="card-title card-modal-head">${card.title}</h1>
+          <span class="close-modal">x</span>
+      </div>
+      <div class="position card-desc">
+          <h4 class="client-text">${card.name}</h4>
+          <H5 class="role-text">&#x25cf; ${card.technology}</H5>
+          <H5 class="year-text">&#x25cf; ${card.year}</H5>
+      </div>
+      <img class="card-modal-img" src=${card.imageUrl} alt="The Snapshoot-Portfolio image">
+      <div class="card-modal-middle">
+      <div class="card-modal-middle-group1"> <p class="card-info">
+      ${card.description}
+          </p>
+          </div>
+          <div class="card-modal-middle-group2">
+              <div class="techs" id="techs">
+                  ${card.languages.map((lang) => `<div class="tag-item" id="techs-item">${lang}</div>`).join('')}
+                
+                  </div>
+                  <hr class="card-modal-hr">
+                  <div class="card-modal-btn-grp">
+                  <a href=${card.liveLink} id="btn-link" <button type="button" class="view-more card-modal-btn">See live <img class="btn-icon" src="assits/card-icon1.png" alt="icon img"></button></a>
+                  <a href=${card.sourceCode} id="btn-link" <button type="button" class="view-more card-modal-btn">See Source <img class="btn-icon" src="assits/card-icon2.png" alt="icon img"></button></a>
+                  </div>
+                  </div> 
+                  </div>
+    </div>`;
+
+  CardModal.innerHTML = modalInstance;
+}
+function AddMenu(selected, modalPart, opener, number) {
+  return selected.addEventListener('click', () => {
+    modalPart.classList.add(opener);
+    modalPart.style.top = '0px';
+
+    if (number) {
+      renderModal(number - 1);
+    }
+  });
+}
