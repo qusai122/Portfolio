@@ -156,4 +156,3 @@ Addwindow(viewModal4, CardModal, 'nav-toggle', 4);
 RemoveWindow(CardModal, CardModal, 'nav-toggle');
 RemoveWindow(closeNav, nav, 'nav-toggle');
 RemoveWindow(nav, nav, 'nav-toggle');
-
