@@ -11,6 +11,7 @@ body {
   height: auto;
   font-family: "Inter", sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .stop-scrolling {
@@ -76,11 +77,6 @@ body {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   display: none;
-}
-
-.nav-toggle {
-  display: flex;
-  flex-direction: column;
 }
 
 .close-button {
@@ -220,9 +216,8 @@ body {
   display: grid;
   justify-content: center;
   width: 100%;
-  background-color: #e5e5e5;
+  background-color: #f7f7f9;
   overflow: hidden;
-  padding: 142px;
   padding-top: 86px;
 }
 
@@ -234,10 +229,11 @@ body {
   background-color: #fff;
   margin: 16px;
   margin-top: 40px;
+  border: 1px solid #dfe1e6;
 }
 
 .my-card img {
-  width: 70%;
+  width: 100%;
 }
 
 .container1 {
@@ -627,6 +623,138 @@ form textarea {
   background-color: transparent;
 }
 
+/* Creat style for popup window */
+
+.modal-section {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  transition: 0.2s ease-in-out;
+  background-color: rgba(165, 185, 224, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  margin-bottom: 50px;
+  backdrop-filter: blur(5px);
+  display: none;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-modal {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 4%;
+  overflow-x: hidden;
+}
+
+.card-modal-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-modal-head > .title {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.close-modal {
+  font-size: 35px;
+  color: #67798e;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.card-modal-head-body {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.card-modal-hr {
+  color: #ebecf0;
+}
+
+.card-info-model {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400px;
+  color: #344563;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.card-modal-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-modal-middle {
+  padding-top: 8px;
+}
+
+.card-modal-middle > .card-info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 8px;
+}
+
+#techs {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: left;
+}
+
+#techs-item {
+  margin-top: 10px;
+}
+
+#btn-link {
+  text-decoration: none;
+}
+
+.btn-icon {
+  margin-left: 7px;
+  margin-bottom: -8px;
+  height: 22px;
+  padding-top: 5px;
+}
+
+.card-modal-btn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: inline-flex;
+  width: 48%;
+  justify-content: space-between;
+}
+
+.card-modal-btn-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  margin: 0;
+}
+
+.card-modal-btn-grp {
+  display: block;
+  gap: 12px;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #menu-icon {
@@ -957,5 +1085,42 @@ form textarea {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .card-modal-middle {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 59px;
+  }
+
+  .card-modal-middle > .description {
+    width: 95%;
+  }
+
+  .card-modal-middle > .card-modal-middle-group1 {
+    width: 70%;
+  }
+
+  .card-modal-middle > .card-modal-middle-group2 {
+    width: 30%;
+  }
+
+  .card-modal-hr {
+    color: #ebecf0;
+  }
+
+  .card-modal-img {
+    height: 586px;
+    width: 100%;
+  }
+
+  .card-modal-btn {
+    width: 45%;
+  }
+
+  .btn-icon {
+    padding-top: 0;
+    height: 18px;
   }
 }
