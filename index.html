@@ -246,34 +246,35 @@
 
         <section class="contact-form"id="my-form">
             
-                <div class="contact-tittle">
-                    <h2 class="contact-me-text">Contact me</h2>
-                </div>
-                <div class="contact-main-text">
-                    <p>
-                        If you have an application you 
-                        are interested in developing, a
-                        feature that you need built or a
-                        project that needs coding. I’d
-                        love to help with it
-                    </p>
-                </div>
+            <div class="contact-tittle">
+                <h2 class="contact-me-text">Contact me</h2>
+            </div>
+            <div class="contact-main-text">
+                <p>
+                    If you have an application you 
+                    are interested in developing, a
+                    feature that you need built or a
+                    project that needs coding. I’d
+                    love to help with it
+                </p>
+            </div>
 
-                <form action="https://formspree.io/f/mqkoqndq" method="post">
+            <form class="form-class" action="https://formspree.io/f/mqkoqndq" method="post">
 
 
 
-                    <input id="username" type="text" name="username" required maxlength="30" title="Name should be text and not more than 30 characters" placeholder="Enter your Name">
-
+                <input id="username" type="text" name="username" required maxlength="30" title="Name should be text and not more than 30 characters" placeholder="Enter your Name">
+                <div class="email-div">
                     <input id="useremail" type="email" name="email" required title="Only emails are allowed here" placeholder="Enter your Email">
+                </div>
+                <textarea id="message" type="text" rows="5" name="message" required maxlength="500" title="message should be not more than 500 characters" placeholder="Write your message here"></textarea>
 
-                    <textarea id="message" type="text" rows="5" name="message" required maxlength="500" title="message should be not more than 500 characters" placeholder="Write your message here"></textarea>
-
-                    <div class="submit-div">
-                        <button id="submit" class="view-more" type="submit">Get in touch</button>
-                    </div>
-                </form>
-        </section>
+                <small class="validator"></small>
+                <div class="submit-div">
+                    <button id="submit" class="view-more" type="submit" onclick="EmailValidation(event)">Get in touch</button>
+                </div>
+            </form>
+    </section>
 
         <script src="index.js" type="text/javascript"></script>
 

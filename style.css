@@ -529,6 +529,35 @@ ul {
   animation-duration: 2s;
 }
 
+.email-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.validator-red {
+  width: 95%;
+  background-color: #fff;
+  color: red;
+  padding: 2px;
+  border: 1px solid red;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.validator-green {
+  width: 95%;
+  background-color: #fff;
+  color: green;
+  padding: 2px;
+  border: 1px solid green;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.form-class {
+  width: 100%;
+}
+
 @keyframes slide-in-revers {
   from {
     margin-right: 100px;
