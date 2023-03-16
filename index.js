@@ -16,7 +16,6 @@ const submitbtn = ReadElement('#submit');
 const username = ReadElement('#username');
 const message = ReadElement('#message');
 
-
 let myMessage;
 let userName;
 let email;
