@@ -13,6 +13,36 @@ const CardModal = ReadElement('.modal-section');
 const emailer = ReadElement('#useremail');
 const validator = ReadElement('.validator');
 const submitbtn = ReadElement('#submit');
+const username = ReadElement('#username');
+const message = ReadElement('#message');
+
+let myMessage;
+let userName;
+let email;
+
+let userData = [];
+
+function UpdateInput(selected) {
+  function myFunction() {
+    email = emailer.value;
+    userName = username.value;
+    myMessage = message.value;
+    userData = [userName, email, myMessage];
+    localStorage.setItem('userData', userData);
+  }
+  selected.addEventListener('change', myFunction);
+}
+
+myMessage = UpdateInput(message);
+userName = UpdateInput(username);
+email = UpdateInput(emailer);
+
+const myFormData = localStorage.getItem('userData');
+const myFormDataArray = myFormData.split(',');
+
+if (myFormDataArray.length > 0) {
+  [username.value, emailer.value, message.value] = myFormDataArray;
+}
 
 function Add() {
   nav.classList.add('nav-toggle');

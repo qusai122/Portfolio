@@ -62,6 +62,7 @@ This Project was buiilt with HTML, CSS and JavaScript
 - **Mobile Nav**
 - **Detail modal**
 - **Email validation**
+- **Local Storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
